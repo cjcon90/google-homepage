@@ -6,10 +6,17 @@
     -webkit-box-sizing: border-box;
 }
 
+
+/* GOOGLE HOMEPAGE STYLING
+=================================================================================== */
+
 body {
     font-family: arial,sans-serif;
     color: #222;
 }
+
+/* GOOGLE HOMEPAGE HEADER STYLING
+=================================================================================== */
 
 header {
     height: 60px;
@@ -62,6 +69,9 @@ header {
     margin: auto;
 }
 
+
+/* GOOGLE HOMEPAGE MAIN CONTENT STYLING
+=================================================================================== */
 main {
     display: flex;
     align-content: center;
@@ -154,11 +164,13 @@ text-decoration: none;
     text-decoration: underline;
 }
 
+/* GOOGLE HOMEPAGE FOOTER STYLING
+=================================================================================== */
+
 .footer-bar {
     background: #f2f2f2;
 line-height: 40px;
 width: 100%;
-border-top: 1px solid #e4e4e4;
 font-size: 1em;
 
 }
@@ -175,13 +187,14 @@ font-size: 1em;
     text-align: left;
     color: rgba(0,0,0,.54);
     font-size: 16px;
-    border-bottom: 1px solid #e4e4e4;
     padding-left: 30px;
 }
 
-#footer-info {
-    float: left;
+#footer-top,
+#footer-bottom {
+    border-top: 1px solid #e4e4e4;
 }
+
 
 #footer-info a {
     padding-left: 30px;
@@ -208,7 +221,7 @@ font-size: 1em;
 @media only screen and (max-width: 500px) {
     #footer-region,
     .footer-div a {
-        font-size: small;
+        font-size: 10px;
     }
 }
 
